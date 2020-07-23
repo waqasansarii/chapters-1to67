@@ -1,0 +1,62 @@
+img{
+    padding: 20px;
+}
+.peraa{
+    display: none;
+}
+.tbl{
+ /* display: none; */
+}
+
+.zoomIn{
+    font-size: 100px;
+}
+.zoomOut{
+    font-size: 10px;
+}
+
+/* modal */
+
+.myimage{
+    width: 30%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myimage:hover{
+    opacity: 0.7;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.model-content{
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    /* width: 50px; */
+    margin-left: 60px;
+}
+.close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,.close:focus{
+    cursor: pointer;
+    color:silver;
+}
